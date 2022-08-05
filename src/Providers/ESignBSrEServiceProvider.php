@@ -55,7 +55,7 @@ class ESignBSrEServiceProvider extends ServiceProvider
 
         // Register the main class to use with the facade
         $this->app->singleton('e-sign-bsre', function () {
-            return new ESignBSrE();
+            return new ESignBSrE;
         });
     }
 }
