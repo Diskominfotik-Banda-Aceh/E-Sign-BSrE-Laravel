@@ -41,6 +41,7 @@ If you discover any security related issues, please email diskominfotikbna[at]gm
 ## Credits
 
 -   [Maulidan Nashuha](https://github.com/maulidandev)
+-   [Rayhan Yulanda](https://github.com/RayhanYulanda)
 -   [All Contributors](../../contributors)
 
 ## License
