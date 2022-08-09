@@ -1,10 +1,10 @@
-# Very short description of the package
+# E-Sign BSrE
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/diskominfotik-banda-aceh/e-sign-bsre.svg?style=flat-square)](https://packagist.org/packages/diskominfotik-banda-aceh/e-sign-bsre)
 [![Total Downloads](https://img.shields.io/packagist/dt/diskominfotik-banda-aceh/e-sign-bsre.svg?style=flat-square)](https://packagist.org/packages/diskominfotik-banda-aceh/e-sign-bsre)
-![GitHub Actions](https://github.com/diskominfotik-banda-aceh/e-sign-bsre/actions/workflows/main.yml/badge.svg)
+<!--![GitHub Actions](https://github.com/diskominfotik-banda-aceh/e-sign-bsre/actions/workflows/main.yml/badge.svg)-->
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+[E-Sign BSrE](https://bsre.bssn.go.id/) adalah package untuk memudahkan penggunaan API E-Sign dari BSSN dengan bahasa PHP
 
 ## Installation
 
@@ -17,7 +17,7 @@ composer require diskominfotik-banda-aceh/e-sign-bsre
 ## Usage
 
 ```php
-// Usage description here
+ESignBSrE::signInvisible($nik, $passphrase, $file, $filename);
 ```
 
 ### Testing
@@ -41,6 +41,7 @@ If you discover any security related issues, please email diskominfotikbna[at]gm
 ## Credits
 
 -   [Maulidan Nashuha](https://github.com/maulidandev)
+-   [Rayhan Yulanda](https://github.com/RayhanYulanda)
 -   [All Contributors](../../contributors)
 
 ## License
