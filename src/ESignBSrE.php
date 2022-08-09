@@ -43,4 +43,14 @@ class ESignBSrE
 
         return new ESignBSreResponse($response);
     }
+
+    public function signVerification($file, $fileName){
+        $response = $this->http->attach(
+            'signed_file',
+            $file,
+            $fileName)
+            ->post($this->url . 'api/sign/verify');
+
+        return new ESignBSreResponse($response);
+    }
 }

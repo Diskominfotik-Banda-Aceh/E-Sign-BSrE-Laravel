@@ -5,7 +5,8 @@ namespace DiskominfotikBandaAceh\ESignBSrE\Facades;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @method \DiskominfotikBandaAceh\ESignBSrE\ESignBSreResponse signInvisible($nik, $passphrase, $file, $fileName)
+ * @method static \DiskominfotikBandaAceh\ESignBSrE\ESignBSreResponse signInvisible($nik, $passphrase, $file, $fileName)
+ * @method static \DiskominfotikBandaAceh\ESignBSrE\ESignBSreResponse signVerification($file, $fileName)
  *
  * @see \DiskominfotikBandaAceh\ESignBSrE\ESignBSrE
  */
