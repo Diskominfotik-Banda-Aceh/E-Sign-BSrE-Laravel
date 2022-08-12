@@ -1,3 +1,18 @@
+Table of contents
+=================
+<!--ts-->
+   * [Table of contents](#table-of-contents)
+   * [E-Sign BSrE](#e-sign-bsre)
+      * [Instalisasi](#instalisasi)
+      * [Penggunaan](#penggunaan)
+        * [Kode](#kode)
+      * [Changelog](#changelog)
+      * [Contributing](#contributing)
+      * [Keamanan](#keamanan)
+      * [Credits](#credits)
+      * [License](#license)
+<!--te-->
+
 # E-Sign BSrE
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/diskominfotik-banda-aceh/e-sign-bsre.svg?style=flat-square)](https://packagist.org/packages/diskominfotik-banda-aceh/e-sign-bsre)
@@ -19,12 +34,12 @@ composer require diskominfotik-banda-aceh/e-sign-bsre
 ### Kode
 Kode yang disediakan ada beberapa yaitu tanda tangan digital invisible, verifikasi tanda tangan digital dan tanda tangan visible (soon)
 
-#### Tanda tangan digital invisible 
+- Tanda tangan digital invisible 
 ```php
 ESignBSrE::signInvisible($nik, $passphrase, $file, $filename);
 ```
 
-#### Verifikasi tanda tangan digital  
+- Verifikasi tanda tangan digital  
 ```php
 ESignBSrE::signVerification($file, $fileName)
 ```
