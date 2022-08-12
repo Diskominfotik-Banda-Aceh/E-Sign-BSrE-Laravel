@@ -16,14 +16,15 @@ composer require diskominfotik-banda-aceh/e-sign-bsre
 
 ## Penggunaan
 
-###Kode
+### Kode
 Kode yang disediakan ada beberapa yaitu tanda tangan digital invisible, verifikasi tanda tangan digital dan tanda tangan visible (soon)
-####Tanda tangan digital invisible 
+
+#### Tanda tangan digital invisible 
 ```php
 ESignBSrE::signInvisible($nik, $passphrase, $file, $filename);
 ```
 
-####Verifikasi tanda tangan digital  
+#### Verifikasi tanda tangan digital  
 ```php
 ESignBSrE::signVerification($file, $fileName)
 ```
