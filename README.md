@@ -19,7 +19,7 @@ Table of contents
 [![Total Downloads](https://img.shields.io/packagist/dt/diskominfotik-banda-aceh/e-sign-bsre-laravel.svg?style=flat-square)](https://packagist.org/packages/diskominfotik-banda-aceh/e-sign-bsre-laravel)
 <!--![GitHub Actions](https://github.com/diskominfotik-banda-aceh/e-sign-bsre-laravel/actions/workflows/main.yml/badge.svg)-->
 
-[E-Sign BSrE](https://bsre.bssn.go.id/) adalah package untuk memudahkan penggunaan API E-Sign dari BSSN dengan bahasa PHP
+[E-Sign BSrE](https://bsre.bssn.go.id/) adalah package untuk memudahkan penggunaan API E-Sign dari BSSN dengan bahasa PHP. Package ini digunakan untuk framework Laravel.
 
 ## Instalisasi
 
