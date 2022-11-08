@@ -1,11 +1,11 @@
 {
-    "name": "diskominfotik-banda-aceh/e-sign-bsre",
+    "name": "diskominfotik-banda-aceh/e-sign-bsre-laravel",
     "description": "",
     "keywords": [
         "diskominfotik-banda-aceh",
-        "e-sign-bsre"
+        "e-sign-bsre-laravel"
     ],
-    "homepage": "https://github.com/diskominfotik-banda-aceh/e-sign-bsre",
+    "homepage": "https://github.com/diskominfotik-banda-aceh/e-sign-bsre-laravel",
     "license": "MIT",
     "type": "library",
     "authors": [
