@@ -45,12 +45,18 @@ Kode yang disediakan ada beberapa yaitu tanda tangan digital invisible, verifika
 
 - **Tanda tangan digital invisible**
 ```php
-ESignBSrE::signInvisible($nik, $passphrase, $file, $filename);
+$esign = ESignBSrE::signInvisible($nik, $passphrase, $file, $filename);
+$esign->getStatus(); //Get status response (int)
+$esign->getErrors(); //Get error response
+$esign->getData(); //Get data as blob pdf
 ```
 
 - **Verifikasi tanda tangan digital**
 ```php
-ESignBSrE::signVerification($file, $fileName)
+$esign = ESignBSrE::signVerification($file, $fileName);
+$esign->getStatus(); //Get status response (int)
+$esign->getErrors(); //Get error response
+$esign->getData(); //Get data as array (tergantung dari API BSrE)
 ```
 
 <!--### Testing
