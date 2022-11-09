@@ -59,6 +59,11 @@ $esign->getErrors(); //Get error response
 $esign->getData(); //Get data as array (tergantung dari API BSrE)
 ```
 
+- **Tanda tangan digital visible**
+```php
+//Soon
+```
+
 <!--### Testing
 
 ```bash
