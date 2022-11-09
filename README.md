@@ -5,6 +5,7 @@ Table of contents
    * [E-Sign BSrE](#e-sign-bsre)
       * [Instalisasi](#instalisasi)
       * [Penggunaan](#penggunaan)
+        * [Konfigurasi](#konfigurasi)
         * [Kode](#kode)
       * [Changelog](#changelog)
       * [Contributing](#contributing)
@@ -30,6 +31,14 @@ composer require diskominfotik-banda-aceh/e-sign-bsre-laravel
 ```
 
 ## Penggunaan
+
+### Konfigurasi
+Copy dan paste konfigurasi ini ke dalam file `.env`
+```php
+TTE_URL="esign.example.go.id"
+TTE_USERNAME="username"
+TTE_PASSWORD="password"
+```
 
 ### Kode
 Kode yang disediakan ada beberapa yaitu tanda tangan digital invisible, verifikasi tanda tangan digital dan tanda tangan visible (soon)
